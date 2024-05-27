@@ -15,4 +15,6 @@ def find_minimum(nums):
             minimum = num
     return minimum
 
+# O(n)
+
 print(find_minimum([1, 3, 2, 69, 3, 5, 1]))

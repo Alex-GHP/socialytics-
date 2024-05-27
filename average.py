@@ -19,4 +19,6 @@ def average(nums):
         sum += num
     return sum / len(nums)
 
+# O(n)
+
 print(average([12, 12, 12]))

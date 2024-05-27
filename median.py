@@ -18,4 +18,6 @@ def median(nums):
         return (nums[n // 2] + nums[n // 2 - 1]) / 2
     return nums[n // 2]
 
+# O(1)
+
 print(median([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))

@@ -10,4 +10,6 @@ def decayed_followers(intl_followers, fraction_lost_daily, days):
     retention_rate = 1 - fraction_lost_daily
     return intl_followers * (retention_rate ** days)
 
+# O(1)
+
 print(decayed_followers(200, 0.5, 3))

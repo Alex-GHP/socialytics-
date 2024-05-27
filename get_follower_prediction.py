@@ -18,4 +18,6 @@ def get_follower_prediction(follower_count, influencer_type, num_months):
     else:
         return follower_count * (2 ** num_months)
     
+# O(1)
+    
 print(get_follower_prediction(10, "tech", 9))

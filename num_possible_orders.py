@@ -6,4 +6,6 @@ def num_possible_orders(num_posts):
         return 1
     return num_posts * (num_possible_orders(num_posts - 1))
 
+# O(n)
+
 print(num_possible_orders(5))

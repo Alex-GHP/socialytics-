@@ -14,5 +14,6 @@ def sum(nums):
         sum += num
     return sum
 
+# O(n)
 
 print(sum([1, 3, 2, 69, 3, 5, 1]))

@@ -1,20 +1,16 @@
-# Pseudocode:
-
+# Procedure:
     # Set low = 0
-
     # Set high = len(arr) - 1
-
     # while low <= high
-
         # set median to (low + high) // 2
-
-        # if arr[median] == target: return True
-
-        # elif arr[median] < target: low = median + 1
-
-        # else: high = median - 1
-
+        # if arr[median] == target 
+            # return True
+        # elif arr[median] < target 
+            # low = median + 1
+        # else 
+            # high = median - 1
     # return False
+# End
 
 def binary_search(target, arr):
     low = 0

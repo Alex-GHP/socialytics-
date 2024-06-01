@@ -1,15 +1,11 @@
-# Pseudocode:
+# Procedure:
     # for each index in list
-
-    # initialize j = i
-
-    # while j > 0 and nums[j - 1] > nums[j]
-
-    # swap nums[j - 1] with nums[j]
-
-    # decrement j
-
+        # initialize j = i
+        # while j > 0 and nums[j - 1] > nums[j]
+            # swap nums[j - 1] with nums[j]
+            # decrement j
     # return list
+# End
 
 def insertion_sort(nums):
     for i in range(len(nums)):
